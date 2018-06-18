@@ -24,6 +24,7 @@
     <ul id="menu">
         <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
         <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+        <li data-menuanchor="practice"><a href="#priatice">Practice Site</a></li>
     </ul>
 
     <div id="section0" class="section" data-name="bio">
@@ -53,6 +54,13 @@
                 {% endif %}
             {% endfor %}
         </div>
+        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#practice"></a>
+    </div>
+
+    <div id="section2" class="section" data-name="practice">
+        <h1 class="animated hidden">
+            <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_pratice }}" href="{{ site.paths.practice }}">{{ site.data.i18n[site.lang].enter_pratice }}</a>
+        </h1>
     </div>
 
     {% include home/scripts.html %}

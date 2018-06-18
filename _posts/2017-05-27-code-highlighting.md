@@ -6,6 +6,7 @@ categories: [demo]
 tags: [demo, jekyll]
 redirect_from:
   - /2017/05/27/
+author: <a href=https://gsdt.github.io>gsdt</a>
 ---
 
 > This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
